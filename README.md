@@ -17,8 +17,8 @@ Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclop
 Launch script in Linux bash (virtual environment active):
 ```bash
 (lenv) mich@mich-desktop:~/lprojects/8_vk_friends_online$ python vk_friends_online.py 
-Input e-mail or phone number: +79126018842
-Imput your password: Kpw16JYa
+Input e-mail or phone number: <your e-mail or phone number>
+Imput your password: <your password>
 Online now:
 Дмитрий Соколовский
 Алексей Чегодаев

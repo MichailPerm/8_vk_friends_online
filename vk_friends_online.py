@@ -1,14 +1,14 @@
 import sys, vk, getpass
 
 
-def get_api_session(login, password, app_id=6469230, v='5.35'):
+def get_api_session(login, password, app_id=6469230, version='5.35'):
     session = vk.AuthSession(
         app_id=app_id,
         user_login=login,
         user_password=password,
         scope='friends'
     )
-    return vk.API(session, v=v)
+    return vk.API(session, v=version)
 
 
 def get_online_friends(api_session):
